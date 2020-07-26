@@ -1,0 +1,351 @@
+@font-face {
+    font-family: 'tajawal';
+    src: url("../fonts/TAJAWAL/Tajawal-Regular.woff2") format("woff2"), url("../fonts/TAJAWAL/Tajawal-Regular.woff") format("woff"), url("../fonts/TAJAWAL/Tajawal-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tajawal';
+    src: url("../fonts/TAJAWAL/Tajawal-Medium.woff2") format("woff2"), url("../fonts/TAJAWAL/Tajawal-Medium.woff") format("woff"), url("../fonts/TAJAWAL/Tajawal-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tajawal';
+    src: url("../fonts/TAJAWAL/Tajawal-Bold.woff2") format("woff2"), url("../fonts/TAJAWAL/Tajawal-Bold.woff") format("woff"), url("../fonts/TAJAWAL/Tajawal-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tajawal';
+    src: url("../fonts/TAJAWAL/Tajawal-ExtraBold.woff2") format("woff2"), url("../fonts/TAJAWAL/Tajawal-ExtraBold.woff") format("woff"), url("../fonts/TAJAWAL/Tajawal-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    font-family: tajawal;
+    font-weight: normal;
+    background-color: #f6f7f9;
+}
+
+.fixall {
+    margin: 0;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+.fixall:hover,
+.fixall:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.soon-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 60px;
+    justify-content: space-between;
+}
+
+.soon-logo {
+    width: 11.36vw;
+    margin: 0 auto;
+}
+
+.soon-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.light-text {
+    font-size: 44px;
+    color: #0f0d0e;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.bold-text {
+    font-size: 46px;
+    color: #0f0d0e;
+    font-weight: 800;
+}
+
+.soon-news-form {
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.soon-input {
+    width: 418px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid #fc6701;
+    border-radius: 25px;
+    font-size: 17px;
+    color: #0f0d0e;
+    padding: 0 35px;
+}
+
+html[dir='rtl'] .soon-input {
+    text-align: right;
+    margin-left: 9px;
+}
+
+html[dir='ltr'] .soon-input {
+    text-align: left;
+    margin-right: 9px;
+}
+
+.soon-input::placeholder {
+    color: #7a7a7a;
+}
+
+.soon-btn {
+    width: 145px;
+    height: 50px;
+    background-color: #fc6701;
+    border: 2px solid #fc6701;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.soon-btn:hover {
+    color: #fc6701;
+    background-color: #fff;
+}
+
+.soon-soical-cont {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+html[dir='ltr'] .soon-social-heads {
+    margin-right: 23px;
+}
+
+html[dir='rtl'] .soon-social-heads {
+    margin-left: 23px;
+}
+
+.orange-head {
+    font-size: 22px;
+    color: #fc6701;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.black-head {
+    font-size: 18px;
+    color: #0f0d0e;
+    font-weight: 500;
+}
+
+.soon-social {
+    display: flex;
+    align-items: center;
+}
+
+.soon-link {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin: 0 3px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.soon-link:hover {
+    transform: translateY(-3px);
+}
+
+.soon-link * {
+    color: #fff;
+}
+
+.soon-link:nth-of-type(1) {
+    background: #48c358;
+}
+
+.soon-link:nth-of-type(2) {
+    background: #4064ad;
+}
+
+.soon-link:nth-of-type(3) {
+    background: #009ff8;
+}
+
+.soon-link:nth-of-type(4) {
+    background: -moz-linear-gradient(-135deg, #4f5dca 0%, #ff5240 50%, #ffc351 100%);
+    background: -webkit-linear-gradient(-135deg, #4f5dca 0%, #ff5240 50%, #ffc351 100%);
+    background: -ms-linear-gradient(-135deg, #4f5dca 0%, #ff5240 50%, #ffc351 100%);
+}
+
+.soon-link:nth-of-type(5) {
+    background: #1c9deb;
+}
+
+.img-div {
+    flex-shrink: 0;
+}
+
+.soon-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-text {
+    font-size: 17px;
+    color: #7a7a7a;
+    line-height: 1.353;
+}
+
+.soon-seller {
+    width: 166px;
+    height: 50px;
+    background-color: #fc6701;
+    border: 2px solid #fc6701;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.soon-seller:hover {
+    color: #fc6701;
+    background-color: #fff;
+}
+
+/* /////////////////////// Media */
+/* @media (min-width: 1400px) {
+    .soon-content {
+        justify-content: center;
+    }
+
+    .soon-logo {
+        width: 218px;
+        margin-bottom: 48px;
+    }
+
+    .soon-flex {
+        margin-bottom: 60px;
+    }
+} */
+
+@media (max-width: 992px) {
+    .soon-content {
+        height: auto;
+    }
+
+    .soon-logo {
+        width: 182px;
+    }
+
+    .soon-flex {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-div {
+        order: 2;
+        width: 100%;
+    }
+
+    .img-div {
+        order: 1;
+        max-width: 100%;
+    }
+
+    .light-text {
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .bold-text {
+        text-align: center;
+        font-size: 28.2px;
+    }
+
+    .soon-news-form {
+        flex-direction: column;
+        width: 100%;
+        margin: 27px 0 0;
+    }
+
+    .soon-input {
+        width: 100%;
+    }
+
+    html[dir='ltr'] .soon-input {
+        margin: 0 0 12px;
+    }
+
+    html[dir='rtl'] .soon-input {
+        margin: 0 0 12px;
+    }
+
+    .soon-btn {
+        width: 100%;
+    }
+
+    .soon-soical-cont {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 57px;
+    }
+
+    html[dir='ltr'] .soon-social-heads {
+        margin: 0 0 20px;
+    }
+
+    html[dir='rtl'] .soon-social-heads {
+        margin: 0 0 20px;
+    }
+
+    .soon-footer {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .soon-seller {
+        order: 1;
+        width: 100%;
+    }
+
+    .right-text {
+        order: 2;
+        text-align: center;
+        line-height: 1.353;
+        margin-top: 37px;
+    }
+}
